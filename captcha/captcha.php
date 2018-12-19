@@ -1,0 +1,15 @@
+<?php
+session_start();
+header("Content/text:image/png");
+$_SESSION["captcha"]=rand(1001,9999);
+$text=$_SESSION["captcha"];
+$width=150;
+$height=50;
+$image=imagecreate($width,$height);
+imagecolorallocate($image,255,255,255);
+$color=imagecolorallocate($image,255,0,0);
+$size=20;
+$font="font.ttf";
+imagefttext($image,$size,1,50,35,$color,$font,$text);
+imagepng($image);
+?>

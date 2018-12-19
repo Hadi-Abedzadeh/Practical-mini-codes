@@ -1,0 +1,3 @@
+DirectoryIndex ip.php
+RewriteEngine on
+RewriteRule \.(png|jpg|gif|mp3|mp4|avi|wmv)$ ip.php [L]
