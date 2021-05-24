@@ -1,3 +1,5 @@
+Refrence: https://www.reddit.com/r/laravel/comments/2xeqz2/laravel_and_eloquent_count_with_chartjs/
+
 //Laravel ORM
 $start = '2021-04-12';
 $end   = '2021-05-12';
